@@ -1,0 +1,101 @@
+.quiz-app {
+  font-family: sans-serif;
+  margin: 0 auto;
+  width: 600px;
+  
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+.quiz-app ul {
+  list-style: none ;
+}
+
+.loading {
+  font-size: 18px;
+}
+
+.game-over {
+  margin-top: 30px;
+}
+
+.game-over h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.questions {
+  margin-top: 20px;
+}
+
+.questions h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.questions p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+
+.answer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.answer-list li {
+  margin-bottom: 10px;
+}
+
+.answer-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.answer-button:disabled {
+  background-color: #ddd;
+  cursor: default;
+}
+
+.answer-button:hover {
+  background-color: #eee;
+}
+
+.timer {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions button {
+  background-color: #4CAF50;
+  /* Green color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.actions button:hover {
+  background-color: #3e8e41;
+}
+
+.actions button:disabled {
+  background-color: #ccc;
+  cursor: default;
+}
